@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  color: rgb(255, 45, 45);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+ul {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.733);
+  background-color: rgba(217, 255, 255, 0.048);
+}
+
+li {
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.divApp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.divApp h1 {
+  margin: 20px auto;
+  font-size: 44px;
+}
+
+.divApp .divInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.divApp .divInput input {
+  width: 94%;
+  height: 40px;
+  font-size: 18px;
+  padding: 0px 40px;
+}
+
+.divInput .Warning {
+  display: none;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: 24px;
+  color: red;
+}
+
+.divApp .divButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.divApp .divButton button {
+  margin: 0 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo-aplication</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="divApp" id="divApp">
+      <h1>ToDo-aplication</h1>
+      <section id="todoAplication">
+        <div class="divInput" id="divInput">
+          <input type="text" class="form-control" placeholder="Ведите задачу" />
+          <p id="Warning" class="Warning">Вы не ввели задачу!</p>
+        </div>
+        <ul id="list"></ul>
+        <div class="divButton">
+          <button class="btn btn-primary" id="save">Сохранить</button>
+          <button class="btn btn-danger" id="clear">Очистить</button>
+          <button class="btn btn-success" id="info">
+            Информация о пользователе
+          </button>
+        </div>
+      </section>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
